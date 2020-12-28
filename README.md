@@ -4,8 +4,8 @@ Terraform module to build a spoke network layer in Azure on the hub and spoke mo
 ## Module examples
 Simple example<br>
 <pre>
-module "network" {
-    source                 = "app.terraform.io/ANET/network/azure"
+module "network-spoke" {
+    source                 = "app.terraform.io/ANET/network-spoke/azure"
     version                = "1.0.0"
 
     hub_vnet_name          = "EastUS-MGMT-VNET"
