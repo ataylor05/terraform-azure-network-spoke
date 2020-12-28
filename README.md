@@ -1,4 +1,4 @@
-# terraform-azure-network
+# terraform-azure-network-spoke
 Terraform module to build a spoke network layer in Azure on the hub and spoke model.
 
 ## Module examples
