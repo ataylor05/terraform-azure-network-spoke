@@ -1,3 +1,8 @@
+output "network_rg_name" {
+  value = azurerm_resource_group.app_network_rg.name
+  description = "Azure Resource Group name for network resources."
+}
+
 output "network_rg_id" {
   value = azurerm_resource_group.app_network_rg.id
   description = "Azure Resource Group id for network resources."
