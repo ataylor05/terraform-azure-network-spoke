@@ -6,7 +6,7 @@ Simple example<br>
 <pre>
 module "network-spoke" {
     source                 = "app.terraform.io/ANET/network-spoke/azure"
-    version                = "1.0.0"
+    version                = "1.0.1"
 
     hub_vnet_name          = "EastUS-MGMT-VNET"
     hub_vnet_rg            = "EastUS-Network-Hub-RG"
